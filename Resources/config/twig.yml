@@ -4,6 +4,6 @@ parameters:
 services:
     ir_jquery_fileupload.twig:
         class: %ir_jquery_fileupload.twig.class%
-        arguments: ['@service.service_container']
+        arguments: ['@service_container']
         tags:
             - { name: twig.extension }        
