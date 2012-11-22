@@ -1,0 +1,7 @@
+parameters:
+#    ir_jquery_fileupload.example.class: IR\JqueryFileuploadBundle\Example
+
+services:
+#    ir_jquery_fileupload.example:
+#        class: %ir_jquery_fileupload.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
