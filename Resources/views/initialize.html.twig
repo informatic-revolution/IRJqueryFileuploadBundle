@@ -1,10 +1,4 @@
-{% javascripts 
-    'bundles/irjqueryfileupload/js/jquery.ui.widget.js'
-    'bundles/irjqueryfileupload/js/jquery.iframe-transport.js'
-    'bundles/irjqueryfileupload/js/jquery.fileupload.js'
-    'bundles/irjqueryfileupload/js//jquery.fileupload-ui.js'
-%}        
-<script src="{{ asset_url }}"></script>
-{% endjavascripts %}
-            
+<script type="text/javascript" src="{{ asset('bundles/irjqueryfileupload/js/jquery.ui.widget.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/irjqueryfileupload/js/jquery.iframe-transport.js') }}"></script>
 <script type="text/javascript" src="{{ asset('bundles/irjqueryfileupload/js/jquery.fileupload.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/irjqueryfileupload/js/jquery.fileupload-ui.js') }}"></script>
