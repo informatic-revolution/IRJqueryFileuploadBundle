@@ -1,0 +1,9 @@
+parameters:
+    ir_jquery_fileupload.helper.class: IR\JqueryFileuploadBundle\Twig\Extension\JqueryFileuploadHelper
+                        
+services:
+    ir_jquery_fileupload.helper:
+        class: %ir_jquery_fileupload.helper.class%
+        arguments: ['@templating']
+        tags:
+            - { name: templating.helper, alias: 'ir_jquery_fileupload' }        

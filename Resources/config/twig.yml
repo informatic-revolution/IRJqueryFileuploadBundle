@@ -1,0 +1,9 @@
+parameters:
+    ir_jquery_fileupload.twig.class: IR\JqueryFileuploadBundle\Twig\Extension\JqueryFileuploadExtension
+                        
+services:
+    ir_jquery_fileupload.twig:
+        class: %ir_jquery_fileupload.twig.class%
+        arguments: ['@service.service_container']
+        tags:
+            - { name: twig.extension }        
