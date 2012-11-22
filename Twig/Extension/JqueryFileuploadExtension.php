@@ -44,7 +44,7 @@ class JqueryFileuploadExtension extends \Twig_Extension
      */
     public function renderInitialize()
     {
-        //return $this->container->get('fos_facebook.helper')->initialize($parameters, $name ?: 'FOSFacebookBundle::initialize.html.twig');
+        return $this->container->get('ir_jquery_fileupload.helper')->initialize();
     }
 
     /**
