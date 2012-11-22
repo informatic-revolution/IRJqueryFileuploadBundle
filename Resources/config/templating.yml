@@ -6,4 +6,4 @@ services:
         class: %ir_jquery_fileupload.helper.class%
         arguments: ['@templating']
         tags:
-            - { name: templating.helper, alias: 'ir_jquery_fileupload' }        
+            - { name: templating.helper, alias: 'jquery_fileupload' }        

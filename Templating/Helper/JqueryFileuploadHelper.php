@@ -42,6 +42,6 @@ class JqueryFileuploadHelper extends Helper
      */  
     public function getName()
     {
-        return 'ir_jquery_fileupload';
+        return 'jquery_fileupload';
     }
 }

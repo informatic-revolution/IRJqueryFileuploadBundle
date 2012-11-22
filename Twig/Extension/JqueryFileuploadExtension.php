@@ -33,7 +33,7 @@ class JqueryFileuploadExtension extends \Twig_Extension
     public function getFunctions()
     {
         return array(
-            'ir_jquery_fileupload_initialize' => new \Twig_Function_Method($this, 'renderInitialize', array('is_safe' => array('html'))),
+            'jquery_fileupload_initialize' => new \Twig_Function_Method($this, 'renderInitialize', array('is_safe' => array('html'))),
         );
     }
 
@@ -52,6 +52,6 @@ class JqueryFileuploadExtension extends \Twig_Extension
      */  
     public function getName()
     {
-        return 'ir_jquery_fileupload';
+        return 'jquery_fileupload';
     }    
 }
