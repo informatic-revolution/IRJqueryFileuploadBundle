@@ -1,5 +1,5 @@
 parameters:
-    ir_jquery_fileupload.helper.class: IR\JqueryFileuploadBundle\Twig\Extension\JqueryFileuploadHelper
+    ir_jquery_fileupload.helper.class: IR\JqueryFileuploadBundle\Templating\Helper\JqueryFileuploadHelper
                         
 services:
     ir_jquery_fileupload.helper:
